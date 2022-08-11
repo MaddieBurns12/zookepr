@@ -57,7 +57,7 @@ function findById(id, animalsArray) {
     return result;
 }
 
-function createNewAnimal (body, animalsArray) { //!!!!//
+function createNewAnimal (body, animalsArray) { 
     const animal = body;
     animalsArray.push(animal);
     fs.writeFileSync(
